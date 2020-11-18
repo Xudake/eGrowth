@@ -1,7 +1,7 @@
 <template>
   <div>
     <select-title></select-title>
-    图片
+    图片123123
   </div>
 </template>
 
