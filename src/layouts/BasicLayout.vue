@@ -144,7 +144,6 @@ export default {
       }
     },
     handleCollapse (val) {
-      console.log(val)
       this.collapsed = val
     },
     handleSettingChange ({ type, value }) {

@@ -44,7 +44,7 @@ ol {
 }
 // 数据列表 搜索条件
 .table-page-search-wrapper {
-
+  padding: 0 10px;
   .ant-form-inline {
     .ant-form-item {
       display: flex;
@@ -55,12 +55,14 @@ ol {
         flex: 1 1;
         display: inline-block;
         vertical-align: middle;
+        width: calc(100% - 80px);
       }
 
       > .ant-form-item-label {
         line-height: 32px;
         padding-right: 8px;
         width: auto;
+        min-width: 80px;
       }
       .ant-form-item-control {
         height: 32px;
