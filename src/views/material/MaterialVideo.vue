@@ -404,6 +404,7 @@ export default {
     align-items: center;
     position: relative;
     font-size: 26px;
+    cursor: pointer;
     &::before {
       content: '';
       position: absolute;
